@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en-US" class="ie"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-US" class="ie"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-US" class="ie"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-US" class="ie"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US"> <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Bonjour HTML - DEMO</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/style-demo.css" media="screen" />
+    
+    <!--[if !IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css">
+    <![endif]-->
+
+    <!-- Head JS Libs -->
+    <!--[if !IE 9]>
+        <script type="text/javascript" src="js/html5shiv.js"></script>
+        <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="js/modernizr.js"></script>
+  </head>
+<body>
+    <!--Start Home-->
+	<section id="home-demo" class="alt-header">
+        <div class="demo-overlay"></div> 
+        
+        <div class="home-container text-center">
+            <div class="container-demo demo-container">
+
+                <div class="col-sm-12 demo-title">
+                    <h1 class="white">Bonjour<span class="color">WEB</span></h1>
+                    <p class="white">We have created an awesome theme that will help you<br> create your websites quickly and easily.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-6 text-center demo-item">
+                    <a class="" href="index-parallax.html"><img class="img-responsive" src="images/about_us/desktop-tablet.png" alt="" title="" /></a>
+					<h4 class="white">Demo #1</h4>
+                    <h4 class="white"><small class="white">Header Parallax Background</small></h4>
+                </div>
+                
+                <div class="col-md-3 col-sm-3 col-xs-6 text-center demo-item">
+                    <a class="" href="index-slider.html"><img class="img-responsive" src="images/about_us/desktop-tablet.png" alt="" title="" /></a>
+					<h4 class="white">Demo #2</h4>
+                    <h4 class="white"><small class="white">Header Fullscreen Slider</small></h4>
+                </div>
+            
+                <div class="col-md-3 col-sm-3 col-xs-6 text-center demo-item">
+                    <a class="" href="index-pattern.html"><img class="img-responsive" src="images/about_us/desktop-tablet.png" alt="" title="" /></a>
+					<h4 class="white">Demo #3</h4>
+                    <h4 class="white"><small class="white">Header Image Pattern</small></h4>
+                </div>
+                
+                <div class="col-md-3 col-sm-3 col-xs-6 text-center demo-item">
+                    <a class="" href="index-zoom.html"><img class="img-responsive" src="images/about_us/desktop-tablet.png" alt="" title="" /></a>
+                    <h4 class="white">Demo #4</h4>
+                    <h4 class="white"><small class="white">Header Image Zoom</small></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Home--> 
+    <!-- FOOTER JS Libs 
+    ================================================== -->
+    <!-- Always latest version of jQuery-->
+    <script type="text/javascript"  src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $('.alt-header').css({'height':($(window).height())+'px'});
+        $(window).resize(function(){
+            $('.alt-header').css({'height':($(window).height())+'px'});
+        });
+    </script>
+</body>
+</html>
