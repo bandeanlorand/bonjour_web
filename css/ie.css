@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* ---------------------- 
+	Stylesheet Guide
+-------------------------
+	1. PACE
+	2. GENERAL
+	3. PARALLAX
+	4. PORTFOLIO
+*/
+
+/* ---------------------------------------------------------------------- */
+/*	1. PACE start here
+/* ---------------------------------------------------------------------- */
+.pace { display: none; }
+/* ---------------------------------------------------------------------- */
+/*	1. PACE end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	2. GENERAL start here
+/* ---------------------------------------------------------------------- */
+header {
+	background:none;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
+	zoom: 1;
+}
+.logo { top: -2px; }
+.form-control, #alert {	background: #1d1d09; }
+/* ---------------------------------------------------------------------- */
+/*	2. GENERAL end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	3. PARALLAX start here
+/* ---------------------------------------------------------------------- */
+.parallax_section .section-title { top: -54px; }
+/* ---------------------------------------------------------------------- */
+/*	3. PARALLAX end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	4. PORTFOLIO start here
+/* ---------------------------------------------------------------------- */
+.portfolio_list li:hover .inner_content {
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
+}
+.portfolio_list li .inner_content span { display: none; border: none; }
+.portfolio_list li:hover .inner_content span { display: table-cell;	border: 1px solid #f3780f; }
+.portfolio_list li .inner_content h4 { display: none; }
+.portfolio_list li:hover .inner_content h4 { display: block; }
+/* ---------------------------------------------------------------------- */
+/*	4. PORTFOLIO end here
+/* ---------------------------------------------------------------------- */

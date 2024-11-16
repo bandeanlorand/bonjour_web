@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.white {
+	background: #1d1d1d;
+	color: #ffffff;
+}
+
+.dark {
+	background: #fff;
+	color: #333;
+}
+
+.social_icons a {
+	background: #5E5E5E;
+}
+
+.form-control, #alert{
+	border: 1px solid #cccccc;
+}
+
+ul.service-description li:hover {
+	color: #292929;
+}

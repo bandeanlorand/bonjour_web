@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------- */
+/*	HEADER style start here
+/* ---------------------------------------------------------------------- */
+#menu li > a.active, 
+#menu li > a:hover {
+	color: #2ac4ea;
+	border-left: 3px solid #2ac4ea;
+}
+
+.sidebarMenu {
+	background: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	HEADER style end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	SLIDER style start here
+/* ---------------------------------------------------------------------- */
+.top_slider .flex_caption .title.orange {
+	color: #2ac4ea;
+}
+.flexslider.top_slider .flex-direction-nav li a {
+	background: #2ac4ea;
+}
+
+.top_slider .slide_btn:hover {
+	background: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	SLIDER style end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	GENERAL SECTION style start here
+/* ---------------------------------------------------------------------- */
+.color,
+.orange {
+	color: #2ac4ea;
+}
+
+.text_orange {
+	color:#2ac4ea;
+}
+
+.section-title span {
+	background: #2ac4ea;
+}
+
+.heading i, .heading b {
+	color:#2ac4ea;
+}
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited {
+	background-color: #2ac4ea;
+}
+
+.parallax_section .inner-content h4 .fa {
+	color:#2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	GENERAL SECTION style end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	ABOUT SECTION style start here
+/* ---------------------------------------------------------------------- */
+.hborder {
+	border-left: 7px solid #2ac4ea;
+}
+
+.about_us_boxes i {
+	color: #2ac4ea;
+}
+
+.about_us_boxes .icon {
+	border-bottom: 1px solid #2ac4ea;
+}
+
+.progress-bar {
+	background-color: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	ABOUT SECTION style end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	TEAMS SECTION style start here
+/* ---------------------------------------------------------------------- */
+.team_boxes .social_icons:before {
+	background: #2ac4ea;
+}
+.team_boxes li .member .about {
+	border: 1px solid #2ac4ea;
+}
+#teams-slider .owl-buttons div {
+	background: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	TEAMS SECTION style start here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	SERVICES SECTION style start here
+/* ---------------------------------------------------------------------- */
+ul.service-description i {
+	color: #2ac4ea;
+}
+
+ul.service-description li h2 {
+	border-left: 7px solid #2ac4ea;
+}
+
+.pricing-wrap:after,
+.pricing-wrap:before {
+	background: #2ac4ea;
+}
+
+ul.service-description li:hover {
+	border: 1px solid #2ac4ea;
+}
+
+.featured h2 {
+	color: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	SERVICES SECTION end start here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	CLIENT SECTION  start here
+/* ---------------------------------------------------------------------- */
+#clientSlider .owl-controls .owl-page span {
+	background: #2ac4ea
+}
+/* ---------------------------------------------------------------------- */
+/*	CLIENT SECTION  start here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	PORTFOLIO SECTION start here
+/* ---------------------------------------------------------------------- */
+.portfolio_list li .inner_content:hover,
+.portfolio_list li .inner_content.active {
+	border: 3px solid #2ac4ea;
+}
+
+.portfolio_list li .inner_content h4 {
+	border-left: 5px solid #2ac4ea;
+}
+
+.portfolio_list li .inner_content .category {
+	border: 1px solid #2ac4ea;
+}
+
+.portfolio_list li .inner_content .icon-work {
+	background: #2ac4ea;
+}
+
+#portfolio_filter li a:hover,
+#portfolio_filter li a.active {
+	border: 1px solid #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	PORTFOLIO SECTION end here
+/* ---------------------------------------------------------------------- */
+	
+/* ---------------------------------------------------------------------- */
+/*	SINGLE PORTFOLIO start here
+/* ---------------------------------------------------------------------- */
+a.portfolio_close {
+	color: #2ac4ea;
+	border: 1px solid #2ac4ea;
+}
+
+.single_portfolio h3 {
+	border-left: 5px solid #2ac4ea;
+}
+
+.single_portfolio {
+	border-bottom: 1px solid #2ac4ea;
+}
+
+.portfolio_info span {
+	border-bottom: 1px solid #2ac4ea;
+}
+
+.lb-data .lb-close {
+	color: #2ac4ea;
+	border: 1px solid #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	SINGLE PORTFOLIO end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	BLOG start here
+/* ---------------------------------------------------------------------- */
+.post h1,
+.post-item h3,
+.widget h3 {
+	border-left: 7px solid #2ac4ea;
+}
+
+.post-item .meta-overlay .meta .date {
+	background-color: #2ac4ea;
+}
+
+.post-item .image .meta-overlay > i:hover,
+.post .meta-overlay > i:hover {
+	color: #2ac4ea;
+	border: 1px solid #2ac4ea;
+}
+
+.post-item .meta-overlay .meta .comments {
+	background-color: #2ac4ea;
+}
+
+.widget.tags ul li:hover {
+	background-color: #2ac4ea;
+}
+
+.widget.recent-posts ul li span {
+	color: #2ac4ea;
+}
+
+#blog .pagination > .active > a,
+#blog .pagination > .active > span,
+#blog .pagination > .active > a:hover,
+#blog .pagination > .active > span:hover,
+#blog.pagination > .active > a:focus, 
+#blog .pagination > .active > span:focus {
+	background-color: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	BLOG end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	INNER BLOG start here
+/* ---------------------------------------------------------------------- */
+.comment-reply,
+.comment-reply a,
+.comment-reply .fa {
+	color: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	INNER BLOG end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	TESTIMONIALS start here
+/* ---------------------------------------------------------------------- */
+#testimonialsSlider .owl-controls .owl-page span {
+	background: #2ac4ea
+}
+
+.testimonial_content i {
+	color: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	TESTIMONIALS end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	CONTACT SECTION start here
+/* ---------------------------------------------------------------------- */
+.inner_contact h3 {
+	border-left: 7px solid #2ac4ea;
+}
+
+.form-control:focus {
+	border: 1px solid #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	CONTACT SECTION end here
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*	FOOTER SECTION start here
+/* ---------------------------------------------------------------------- */
+.go-to-top a {
+	background-color: #2ac4ea;
+}
+/* ---------------------------------------------------------------------- */
+/*	FOOTER SECTION end here
+/* ---------------------------------------------------------------------- */
