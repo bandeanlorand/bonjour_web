@@ -654,7 +654,7 @@ header.visible {
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    background-size: cover;
-	    -o-background-size: cover;*/
+	    -o-background-size: cover;
 	}
 	/* 5.2. HEADER PATTERN end here */
 
@@ -1517,7 +1517,7 @@ a.portfolio_close:hover  {
 	}
 
 	.post:hover .meta-overlay {
-		background: rgba(0,0,0, 0.5);x
+		background: rgba(0,0,0, 0.5);
 	}
 
 	.post .meta-overlay > i {
